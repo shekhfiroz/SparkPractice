@@ -1,0 +1,54 @@
+2017-11-07 15:10:30,713 [Worker-8] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-07 15:12:17,398 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\DontTouch\eclipseWS\SparkCore\pom.xml
+2017-11-07 15:12:22,464 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:SparkCore:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\SparkCore\pom.xml.
+2017-11-07 15:12:24,305 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SparkCore/src/main/java
+2017-11-07 15:12:24,324 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SparkCore/src/test/java
+2017-11-07 15:12:25,674 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2017-11-07 15:12:27,074 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:12:27,075 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\SparkCore\src\main\resources
+2017-11-07 15:12:27,079 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:12:27,079 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\SparkCore\src\test\resources
+2017-11-07 15:14:29,872 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\DontTouch\eclipseWS\main\pom.xml
+2017-11-07 15:14:31,068 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:14:31,566 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /main/src/main/java
+2017-11-07 15:14:31,640 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /main/src/test/java
+2017-11-07 15:14:31,762 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-11-07 15:14:32,234 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:14:32,235 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:14:32,240 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:14:32,240 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources
+2017-11-07 15:14:59,571 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:15:00,073 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:00,074 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:15:00,104 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:00,105 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources
+2017-11-07 15:15:32,023 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:15:39,044 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:39,044 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:15:39,050 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:39,050 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources
+2017-11-07 15:15:41,335 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:15:43,007 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:43,007 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:15:43,010 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:15:43,011 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources
+2017-11-07 15:17:03,577 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-11-07 15:17:04,769 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:17:08,033 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/spark/spark-core_2.10/2.1.1/spark-core_2.10-2.1.1.jar
+2017-11-07 15:17:21,481 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/spark/spark-core_2.10/2.1.1/spark-core_2.10-2.1.1.jar
+2017-11-07 15:17:21,744 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar
+2017-11-07 15:17:24,759 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar
+2017-11-07 15:17:25,018 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar
+2017-11-07 15:17:26,092 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar
+2017-11-07 15:17:34,204 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /main/src/main/java
+2017-11-07 15:17:34,206 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /main/src/test/java
+2017-11-07 15:17:35,266 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 31 sec
+2017-11-07 15:17:37,677 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:17:37,677 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:17:37,682 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:17:37,683 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources
+2017-11-07 15:22:13,658 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:main:0.0.1-SNAPSHOT @ D:\DontTouch\eclipseWS\main\pom.xml.
+2017-11-07 15:22:15,508 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:22:15,508 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\main\resources
+2017-11-07 15:22:15,511 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-07 15:22:15,511 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DontTouch\eclipseWS\main\src\test\resources

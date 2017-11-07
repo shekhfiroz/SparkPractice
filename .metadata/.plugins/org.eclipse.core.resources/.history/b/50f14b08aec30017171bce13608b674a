@@ -1,0 +1,33 @@
+package com.main;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.rdd.RDD;
+
+public class SparkCore {
+
+	private RDD<String> textFile;
+	private static SparkCore sparkCore;
+
+	public static void main(String[] args) {
+		Logger.getLogger("org").setLevel(Level.OFF);
+		sparkCore = new SparkCore();
+		sparkCore.countLines();
+
+	}
+
+	public void countLines() {
+		
+		SparkConf config = new SparkConf().setAppName("counLines").setMaster("local");
+		SparkContext sparkcontext = new SparkContext(config);
+		RDD<String> rddFile = sparkcontext.textFile("Auto.csv", 2);
+		System.out.println("FileContent" + rddFile);
+
+		// sparkcontext.close();
+	}
+
+}

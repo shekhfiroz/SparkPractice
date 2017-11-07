@@ -1,0 +1,31 @@
+package com.main;
+
+import java.util.Arrays;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.rdd.RDD;
+
+public class SparkCore {
+
+	private RDD<String> textFile;
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public void countLines()
+	{
+		SparkConf config=new SparkConf().setAppName("counLines").setMaster("local");
+		SparkContext sparkcontext=new SparkContext(config);
+       RDD<String> rddFile=sparkcontext.textFile("Auto.csv", 2);
+        
+        
+        
+        
+        
+       // sparkcontext.close();
+	}
+
+}
