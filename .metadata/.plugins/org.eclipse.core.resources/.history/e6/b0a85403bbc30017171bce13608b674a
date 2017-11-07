@@ -43,8 +43,6 @@ public class SparkCore {
 		RDD<String>inputRDD = sparkContext.textFile("Auto.csv", 5);
 		
 		
-		
-		
         
 	}
 

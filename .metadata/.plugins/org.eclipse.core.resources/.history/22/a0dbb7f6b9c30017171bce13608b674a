@@ -12,15 +12,13 @@ public class SparkCore {
 
 	private RDD<String> textFile;
 	private static SparkCore sparkCore;
-	private SparkContext sparkContext;
-	private RDD<String> textFile2;
 
 	public static void main(String[] args) {
 		/*
 		 * Logger class is use to control the logging System.setProperty is use to
 		 * remove the winutils exceptions in windos os
 		 */
-		//Logger.getLogger("org").setLevel(Level.INFO);
+		Logger.getLogger("org").setLevel(Level.INFO);
 		// System.setProperty("hadoop.home.dir", "E:\\hadoop2.8\\bin");
 		sparkCore = new SparkCore();
 		sparkCore.countLines();
@@ -31,21 +29,15 @@ public class SparkCore {
 
 		SparkConf config = new SparkConf().setAppName("counLines").setMaster("local[4]");
 		SparkContext sparkcontext = new SparkContext(config);
-		RDD<String> rddFile = sparkcontext.textFile("Auto.csv", 4);
+		RDD<String> rddFile = sparkcontext.textFile("Auto.csv", 2);
 		rddFile.count();
 		System.out.println("Number oF lines in File" + "  " + rddFile.count());
 		// System.out.println("FileContent" + rddFile);
 	}
 
 	public void mapperReducer() {
-		System.out.println("hi i am in mapper\n");
-		SparkContext sparkContext = new SparkContext();
-		RDD<String>inputRDD = sparkContext.textFile("Auto.csv", 5);
-		
-		
-		
-		
-        
+		System.out.println("hi i am in mapper");
+
 	}
 
 }

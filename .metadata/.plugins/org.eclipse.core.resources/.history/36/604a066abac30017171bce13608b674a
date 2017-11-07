@@ -20,7 +20,7 @@ public class SparkCore {
 		 * Logger class is use to control the logging System.setProperty is use to
 		 * remove the winutils exceptions in windos os
 		 */
-		//Logger.getLogger("org").setLevel(Level.INFO);
+		Logger.getLogger("org").setLevel(Level.INFO);
 		// System.setProperty("hadoop.home.dir", "E:\\hadoop2.8\\bin");
 		sparkCore = new SparkCore();
 		sparkCore.countLines();
@@ -38,13 +38,9 @@ public class SparkCore {
 	}
 
 	public void mapperReducer() {
-		System.out.println("hi i am in mapper\n");
+		System.out.println("hi i am in mapper");
 		SparkContext sparkContext = new SparkContext();
 		RDD<String>inputRDD = sparkContext.textFile("Auto.csv", 5);
-		
-		
-		
-		
         
 	}
 
